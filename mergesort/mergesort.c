@@ -1,4 +1,6 @@
 #include "mergesort.h"
+#include <cstddef>
+#include <cstdlib>
 
 static void merge_into(int *dst, const int *left, int nL, const int *right, int nR) {
   int i = 0, j = 0, k = 0;
